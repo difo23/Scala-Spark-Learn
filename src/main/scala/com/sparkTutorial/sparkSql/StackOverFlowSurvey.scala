@@ -52,6 +52,8 @@ object StackOverFlowSurvey {
     System.out.println("=== With salary bucket column ===")
     responseWithSalaryBucket.select(SALARY_MIDPOINT, SALARY_MIDPOINT_BUCKET).show()
 
+
+    
     System.out.println("=== Group by salary bucket ===")
     responseWithSalaryBucket.groupBy(SALARY_MIDPOINT_BUCKET).count().orderBy(SALARY_MIDPOINT_BUCKET).show()
 
