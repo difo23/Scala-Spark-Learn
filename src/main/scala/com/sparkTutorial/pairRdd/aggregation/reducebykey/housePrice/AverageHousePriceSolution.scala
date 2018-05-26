@@ -24,4 +24,6 @@ object AverageHousePriceSolution {
     println("housePriceAvg: ")
     for ((bedroom, avg) <- housePriceAvg.collect()) println(bedroom + " : " + avg)
   }
+
+
 }
